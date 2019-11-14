@@ -1,0 +1,20 @@
+body{
+border:solid 2px red;
+}
+.formulario{
+display:flex;
+flex-direction:column;
+justify-content:center;
+align-items:center;
+margin-top:200px;
+}
+input:required {
+  border: 1px dashed red;
+}
+
+
+
+.formulario table{
+text-align:center;
+}
+

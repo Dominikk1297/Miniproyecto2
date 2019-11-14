@@ -1,0 +1,57 @@
+/*Body*/
+	
+.slider{
+	width:100%;
+	margin-top:50px;
+	font-size:50px;
+	text-align:center;
+	
+}
+ul{
+display:flex;
+padding:0;
+list-style:none;
+}
+
+.slider ul{
+width:300%;
+animation: slide 15s infinite alternate ease-in-out;
+}
+.slider a{
+	color:black;
+}
+
+.slider a:hover{
+	color:lightgreen;
+	text-decoration:underline;
+	transition: .5s ease-in-out;
+}
+.slider li{
+width:100%;
+}
+
+.slider img{
+	margin-top:20px;
+	margin:10px;
+	width:240px;
+	height:159px;
+}
+
+
+
+
+
+
+
+@keyframes slide{
+	
+	0%{margin-left: 0; }
+	30%{margin-left: 0; }
+	
+	40%{margin-left: -100%; }
+	70%{margin-left: -100%; }
+	
+	80%{margin-left: -200%; }
+	100%{margin-left: -200%; }
+	
+	}

@@ -1,0 +1,558 @@
+
+@font-face {
+	font-family: Sublime;
+	src:url(../fuentes/Sublime.ttf);
+}
+@font-face {
+	font-family: Adega;
+	src:url(../fuentes/Adega.otf);
+}
+
+html, body{
+	font-family:Adega;
+	height:100%;
+	margin:0;
+	overflow-x:hidden;
+}
+/*Menú*/
+.titulo .pol {
+    color: #202020;
+    letter-spacing: .1em;
+    text-shadow: -2px -2px 2px gray, 2px 2px 1px #363636;
+}
+.contenedor{
+	position:fixed;
+	font-family:Sublime;
+	font-size:50px;
+	left:0;
+	top:0;
+	width:100%;
+	height:100px;
+}
+.titulo .pol{
+	position:absolute;
+	top:30px;
+	left:50px;
+	font-size:20px;
+	color:black;
+}
+.titulo .pol:first-letter{
+font-size:30px;
+}
+.menu1, .menu2, .menu3, .menu4{
+	position:absolute;
+	text-align:center;
+	top:70px;
+	width:175px;
+	height:55px;
+	font-size:12px;
+	display:inline;	
+	color:white;
+
+}
+
+.menu a:hover{
+	color:lightgreen;
+	text-decoration:underline;
+	transition: .5s ease-in-out;
+}
+
+.menu a:active{
+	color:black;
+	transition:none;
+}
+.menu1{
+	left:200px;	
+}
+.menu2{
+	left:300px;	
+}
+.menu3{
+	left:400px;	
+}
+.menu4{
+	left:500px;	
+}
+#fondo{
+	top:0;
+	width:100%;
+	height:100px;
+}
+#escudo{
+	position:absolute;
+	top:10px;
+	right:100px;
+	width:80px;
+	height:80px;
+}
+
+a{
+	margin-top:20px;
+	Color:white;
+	text-decoration:none;
+
+}
+/*Redes Sociales*/
+#icons {
+    position: fixed;
+    right: 0;
+    top: 242px;
+    z-index: 1100;
+}
+#icons .ico-1{
+	background: url(../img/facebook.png) no-repeat;
+	background-color:white;
+	background-size: cover;
+}
+#icons .ico-2{
+    background: url(../img/insta.png) no-repeat;
+    background-color:white;
+    background-size: cover;
+	
+}
+#icons .ico-3{
+    background: url(../img/youtube.png) no-repeat;
+    background-color:white;
+    background-size: cover;
+	
+}
+#icons a{
+    height: 40px;
+    width: 40px;
+    display: block;
+    margin-bottom: 2px;
+    background-color: #fff;
+    border-radius: 10px;
+    border: solid 2px #fff;
+    position: relative;
+    opacity:0.8;
+   
+}
+a:link {
+    cursor: pointer;
+}
+#icons a:hover{
+	border: solid 3px lightgreen;
+}
+
+.ico-1:hover{
+	transform:scale(1.2);
+	transition: .25s ease-in-out;
+	
+}
+.ico-2:hover{
+	
+	transform:scale(1.2);
+	transition: .25s ease-in-out;
+	
+}
+.ico-3:hover{
+	
+	transform:scale(1.2);
+	transition: .25s ease-in-out;
+	
+}
+.polonia, .polonia img{
+	width:100%;
+	margin-top:px;
+}
+.pie{
+	margin-top:20px;
+	clear:both;
+	text-align:center;
+	height:50px;
+	bottom:0;
+	width:100%;
+	background-color:gray;	
+	
+	
+}
+.pie a,span{
+	margin-right:10px;
+}
+#encabezado{
+	text-align:center;
+	font-size:50px;
+	margin-top:50px;
+	margin-bottom:50px;	
+	
+}
+.pie a::after{
+content:"-";
+}
+.pie a::before{
+content:"-";
+}
+
+
+@media screen and (min-width:963px){
+@font-face {
+	font-family: Sublime;
+	src:url(../fuentes/Sublime.ttf);
+}
+@font-face {
+	font-family: Adega;
+	src:url(../fuentes/Adega.otf);
+}
+
+html, body{
+	font-family:Adega;
+	height:100%;
+	margin:0;
+	overflow-x:hidden;
+}
+/*Menú*/
+.titulo .pol {
+    color: #202020;
+    letter-spacing: .1em;
+    text-shadow: -2px -2px 2px gray, 2px 2px 1px #363636;
+}
+.contenedor{
+	position:fixed;
+	font-family:Sublime;
+	font-size:50px;
+	left:0;
+	top:0;
+	width:100%;
+	height:100px;
+}
+.titulo .pol{
+	position:absolute;
+	top:30px;
+	left:50px;
+	font-size:30px;
+	color:black;
+}
+.titulo .pol:first-letter{
+font-size:40px;
+}
+.menu1, .menu2, .menu3, .menu4{
+	position:absolute;
+	text-align:center;
+	top:65px;
+	width:175px;
+	height:55px;
+	font-size:18px;
+	display:inline;	
+	color:white;
+
+}
+
+.menu a:hover{
+	color:lightgreen;
+	text-decoration:underline;
+	transition: .5s ease-in-out;
+}
+.menu a:active{
+	color:black;
+	transition:none;
+}
+.menu1{
+	left:250px;	
+}
+.menu2{
+	left:350px;	
+}
+.menu3{
+	left:500px;	
+}
+.menu4{
+	left:650px;	
+}
+#fondo{
+	top:0;
+	width:100%;
+	height:100px;
+}
+#escudo{
+	position:absolute;
+	top:10px;
+	right:100px;
+	width:80px;
+	height:80px;
+}
+
+a{
+	margin-top:20px;
+	Color:white;
+	text-decoration:none;
+
+}
+/*Redes Sociales*/
+#icons {
+    position: fixed;
+    right: 0;
+    top: 242px;
+    z-index: 1100;
+}
+#icons .ico-1{
+	background: url(../img/facebook.png) no-repeat;
+	background-color:white;
+	background-size: cover;
+}
+#icons .ico-2{
+    background: url(../img/insta.png) no-repeat;
+    background-color:white;
+    background-size: cover;
+	
+}
+#icons .ico-3{
+    background: url(../img/youtube.png) no-repeat;
+    background-color:white;
+    background-size: cover;
+	
+}
+#icons a{
+    height: 40px;
+    width: 40px;
+    display: block;
+    margin-bottom: 2px;
+    background-color: #fff;
+    border-radius: 10px;
+    border: solid 2px #fff;
+    position: relative;
+    opacity:0.8;
+   
+}
+a:link {
+    cursor: pointer;
+}
+#icons a:hover{
+	border: solid 3px lightgreen;
+}
+
+.ico-1:hover{
+	transform:scale(1.2);
+	transition: .25s ease-in-out;
+	
+}
+.ico-2:hover{
+	
+	transform:scale(1.2);
+	transition: .25s ease-in-out;
+	
+}
+.ico-3:hover{
+	
+	transform:scale(1.2);
+	transition: .25s ease-in-out;
+	
+}
+.polonia, .polonia img{
+	width:100%;
+	margin-top:px;
+}
+.pie{
+	margin-top:20px;
+	clear:both;
+	text-align:center;
+	height:50px;
+	bottom:0;
+	width:100%;
+	background-color:gray;	
+	
+	
+}
+.pie a,span{
+	margin-right:10px;
+}
+#encabezado{
+	text-align:center;
+	font-size:50px;
+	margin-top:50px;
+	margin-bottom:50px;	
+	
+}
+.pie a::after{
+content:"-";
+}
+.pie a::before{
+content:"-";
+}
+}
+
+@media screen and (min-width:1025px){
+@font-face {
+	font-family: Sublime;
+	src:url(../fuentes/Sublime.ttf);
+}
+@font-face {
+	font-family: Adega;
+	src:url(../fuentes/Adega.otf);
+}
+
+html, body{
+	font-family:Adega;
+	height:100%;
+	margin:0;
+	overflow-x:hidden;
+}
+/*Menú*/
+.titulo .pol {
+    color: #202020;
+    letter-spacing: .1em;
+    text-shadow: -2px -2px 2px gray, 2px 2px 1px #363636;
+}
+.contenedor{
+	position:fixed;
+	font-family:Sublime;
+	font-size:50px;
+	left:0;
+	top:0;
+	width:100%;
+	height:100px;
+}
+.titulo .pol{
+	position:absolute;
+	top:10px;
+	left:50px;
+	font-size:50px;
+	color:black;
+}
+.titulo .pol:first-letter{
+font-size:60px;
+}
+.menu1, .menu2, .menu3, .menu4{
+	position:absolute;
+	text-align:center;
+	top:55px;
+	width:175px;
+	height:55px;
+	font-size:25px;
+	display:inline;	
+	color:white;
+
+}
+.menu a:hover{
+	color:lightgreen;
+	text-decoration:underline;
+	transition: .5s ease-in-out;
+}
+.menu a:active{
+	color:black;
+	transition:none;
+}
+.menu1{
+	left:350px;	
+}
+.menu2{
+	left:525px;	
+}
+.menu3{
+	left:725px;	
+}
+.menu4{
+	left:925px;	
+}
+#fondo{
+	top:0;
+	width:100%;
+	height:100px;
+}
+#escudo{
+	position:absolute;
+	top:10px;
+	right:100px;
+	width:80px;
+	height:80px;
+}
+
+a{
+	margin-top:20px;
+	Color:white;
+	text-decoration:none;
+
+}
+/*Redes Sociales*/
+#icons {
+    position: fixed;
+    right: 0;
+    top: 242px;
+    z-index: 1100;
+}
+#icons .ico-1{
+	background: url(../img/facebook.png) no-repeat;
+	background-color:white;
+	background-size: cover;
+}
+#icons .ico-2{
+    background: url(../img/insta.png) no-repeat;
+    background-color:white;
+    background-size: cover;
+	
+}
+#icons .ico-3{
+    background: url(../img/youtube.png) no-repeat;
+    background-color:white;
+    background-size: cover;
+	
+}
+#icons a{
+    height: 40px;
+    width: 40px;
+    display: block;
+    margin-bottom: 2px;
+    background-color: #fff;
+    border-radius: 10px;
+    border: solid 2px #fff;
+    position: relative;
+    opacity:0.8;
+   
+}
+a:link {
+    cursor: pointer;
+}
+#icons a:hover{
+	border: solid 3px lightgreen;
+}
+
+.ico-1:hover{
+	transform:scale(1.2);
+	transition: .25s ease-in-out;
+	
+}
+.ico-2:hover{
+	
+	transform:scale(1.2);
+	transition: .25s ease-in-out;
+	
+}
+.ico-3:hover{
+	
+	transform:scale(1.2);
+	transition: .25s ease-in-out;
+	
+}
+.polonia, .polonia img{
+	width:100%;
+	margin-top:px;
+}
+.pie{
+	margin-top:20px;
+	clear:both;
+	text-align:center;
+	height:60px;
+	bottom:0;
+	width:100%;
+	background-color:gray;	
+	
+	
+}
+.pie a,span{
+	margin-right:10px;
+}
+#encabezado{
+	text-align:center;
+	font-size:50px;
+	margin-top:50px;
+	margin-bottom:50px;	
+	
+}
+.pie a::after{
+content:"-";
+}
+.pie a::before{
+content:"-";
+}
+ 
+}
